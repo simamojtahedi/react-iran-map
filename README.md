@@ -15,7 +15,7 @@ This package is perfect for anyone looking to create data visualizations related
 ## Usage
 
 ```jsx
-import IranMap from 'react-iran-map'
+import { IranMap } from 'react-iran-map'
 import mapData from '../data.tsx'
 
 function App() {
