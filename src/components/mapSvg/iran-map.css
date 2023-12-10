@@ -1,0 +1,57 @@
+.iran-map-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+}
+
+.iran-map-wrapper path,
+.iran-map-wrapper polygon {
+  outline: none !important;
+  stroke: transparent;
+  cursor: pointer;
+}
+
+.iran-map-wrapper .react-map-water {
+  fill: #7bdaff !important;
+}
+
+.react-map-badge {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-family: inherit;
+  overflow: hidden;
+  min-width: 95px;
+  text-align: right;
+}
+
+.react-map-badge h2 {
+  margin: 0;
+  padding: 7px;
+  font-size: 12px;
+  background-color: #e6e6e6;
+}
+
+.react-map-badge h3 {
+  font-size: 13px;
+  margin: 0;
+  padding: 7px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.react-map-badge h3 span {
+  flex: 1;
+  direction: rtl;
+}
+
+.iran-map-wrapper g,
+.iran-map-wrapper text {
+  pointer-events: none !important;
+  font-family: inherit;
+  font-weight: 700;
+}
