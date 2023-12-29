@@ -104,6 +104,7 @@ const IranMap: React.FC<IranMapWrapperProps> = ({
         pathMouseOverHandler={pathMouseOverHandler}
         data={data}
         tooltipTitle={tooltipTitle}
+        width={width}
       />
     </div>
   )

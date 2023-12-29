@@ -10,6 +10,7 @@ const IranMapWrapper: React.FC<MapProps> = ({
   pathClickedHandle,
   pathMouseOverHandler,
   data,
+  width,
   tooltipTitle,
 }) => {
   const badge = `
@@ -38,6 +39,10 @@ const IranMapWrapper: React.FC<MapProps> = ({
         y='0px'
         viewBox='0 0 1080 1080'
         ref={mapRef}
+        style={{
+          width: width,
+          height: width,
+        }}
       >
         <path
           data-tooltip-id='iran-map-tooltip'

@@ -33,4 +33,5 @@ export interface MapProps {
   pathMouseOverHandler: Function
   data: {}
   tooltipTitle: undefined | string
+  width: number | string | undefined
 }
