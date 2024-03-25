@@ -13,6 +13,7 @@
   outline: none !important;
   stroke: transparent;
   cursor: pointer;
+  transition: all .3s;
 }
 
 .iran-map-wrapper .react-map-water {
