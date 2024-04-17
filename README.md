@@ -1,4 +1,10 @@
+
 # Iran Map
+
+![NPM Version](https://img.shields.io/npm/v/react-iran-map)&nbsp;
+![NPM Downloads](https://img.shields.io/npm/d18m/react-iran-map)&nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/simamojtahedi/react-iran-map?color=yellow)&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/simamojtahedi/react-iran-map)&nbsp;
 
 This is an interactive and responsive SVG map of Iran which is a powerful tool for visualizing data related to Iran's provinces. It allows users to customize the colors of each province based on data values and additionally, users can click on each province to change it's color and retrieve it's name using a simple function.
 
@@ -8,12 +14,17 @@ This package is perfect for anyone looking to create data visualizations related
 
 [**Live Demo**](https://simamojtahedi.github.io/react-iran-map/)
 
+
+
+![react-iran-map](https://github.com/simamojtahedi/react-iran-map/assets/64223524/b8ebd675-19b4-453e-ae37-2043983476c2)
+
+
+
 ## Installation
 
 `npm i react-iran-map`
-
+    
 ## Usage
-
 ```jsx
 import { IranMap } from 'react-iran-map'
 import mapData from '../data.tsx'
@@ -42,6 +53,7 @@ function App() {
 
 export default App
 ```
+
 
 ## Data schema
 
@@ -80,8 +92,8 @@ const mapData = {
   yazd: 32,
 }
 ```
-
 ## Available attributes
+
 
 | Name                      | Type       | Required | Description                                                                                              |
 | :------------------------ | :--------- | :------- | :------------------------------------------------------------------------------------------------------- |
@@ -94,7 +106,6 @@ const mapData = {
 | `selectedProvinceColor`   | `string`   | False    | Color of the clicked province                                                                            |
 | `tooltipTitle`            | `string`   | False    | You can add a name for the value in tooltip                                                              |
 | `selectProvinceHandler`   | `function` | False    | You can define a function like example above to get selected province name                               |
-
 ## Authors
 
 - [@simamojtahedi](https://github.com/simamojtahedi)
